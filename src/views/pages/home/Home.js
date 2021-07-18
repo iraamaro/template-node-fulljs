@@ -1,5 +1,6 @@
 import homeSectionOne from '../../components/sections/homeSectionOne'
 import homeSectionTwo from '../../components/sections/homeSectionTwo'
+import floatImage from '../../components/float/floatImage'
 
 let Home = {
   is_private: false,
@@ -9,6 +10,7 @@ let Home = {
           <div>
             ${homeSectionOne}
             ${homeSectionTwo}
+            ${floatImage}
           </div>
       `;
 
