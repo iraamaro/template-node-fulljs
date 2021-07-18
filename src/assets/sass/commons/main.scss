@@ -1,4 +1,14 @@
+$backGroundBlack: #000;
+$fontColorWhite: #fff;
+$fontFamilyDefault: 'Roboto', sans-serif; 
+
 *{
-  margin: 0;
-  padding: 0;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background: $backGroundBlack;
+   color: $fontColorWhite;
+   font-family: $fontFamilyDefault;
 }
